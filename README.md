@@ -1,0 +1,2 @@
+# mynewprojects
+For stady Git
