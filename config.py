@@ -51,7 +51,7 @@ def callback_inline(call):
             
             #кнопки выбора направления по саморазвитию для школьников
             if call.data == 'wishes':
-                bot.send_message(call.message.chat.id, 'Мы серьезно относимся ко всем нашим стажерам и нам не безразлично ваши пожелания.\n Все твои пожелания ты можешь оставить здесь: https://docs.google.com/spreadsheets/d/1AGxO7aROjxnKhxw0XpOrLL5tTNr5HyzUt32UBZKjZ9k/edit?usp=sharing')
+                bot.send_message(call.message.chat.id, 'Мы серьезно относимся ко всем нашим стажерам и нам не безразлично ваши пожелания.\n Все твои пожелания ты можешь оставить здесь: ')
 
             # remove inline buttons
             
